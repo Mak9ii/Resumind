@@ -15,7 +15,7 @@ function Navbar() {
         </Link>
       </nav>
       <button
-        className="primary-button w-fit h-fit self-center mx-2 max-sm:!text-sm "
+        className="primary-button w-fit h-fit self-center mx-4 max-sm:!text-sm mx-2 "
         onClick={() => {
           auth.signOut();
           window.location.reload();
