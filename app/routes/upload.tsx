@@ -119,7 +119,9 @@ function Upload() {
       <Navbar />
       <section className="main-section">
         <div className="page-heading py-16">
-          <h1>smart feedback for your dream job</h1>
+          <h1 className="max-sm:!text-2xl">
+            smart feedback for your dream job
+          </h1>
           {isProcessing ? (
             <>
               <h2>{statusText}</h2>
