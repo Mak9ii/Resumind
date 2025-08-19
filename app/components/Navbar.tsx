@@ -11,7 +11,7 @@ function Navbar() {
           </p>
         </Link>
         <Link to="/upload" className="primary-button w-fit max-sm:!text-sm">
-          Upload Rsume
+          Upload Resume
         </Link>
       </nav>
       <button
