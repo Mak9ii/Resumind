@@ -13,15 +13,15 @@ const ScoreBadge = ({ score }: { score: number }) => {
         "flex flex-row gap-1 items-center px-2 py-0.5 rounded-[96px]",
         score > 85
           ? "bg-blue-100"
-          : score > 69
+          : score > 70
             ? "bg-badge-green"
-            : score > 39
+            : score > 49
               ? "bg-badge-yellow"
               : "bg-badge-red"
       )}
     >
       <img
-        src={score > 69 ? "/icons/check.svg" : "/icons/warning.svg"}
+        src={score > 49 ? "/icons/check.svg" : "/icons/warning.svg"}
         alt="score"
         className="size-4"
       />
@@ -32,7 +32,7 @@ const ScoreBadge = ({ score }: { score: number }) => {
             ? "text-blue-600"
             : score > 69
               ? "text-badge-green-text"
-              : score > 39
+              : score > 49
                 ? "text-badge-yellow-text"
                 : "text-badge-red-text"
         )}

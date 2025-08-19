@@ -5,7 +5,7 @@ const Category = ({ title, score }: { title: string; score: number }) => {
   const textColor =
     score > 85
       ? "text-blue-600"
-      : score > 65
+      : score > 70
         ? "text-green-600"
         : score > 49
           ? "text-yellow-600"

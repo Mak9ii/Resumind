@@ -8,7 +8,7 @@ const ScoreBadge: React.FC<ScoreBadgeProps> = ({ score }) => {
   if (score > 85) {
     badgeColor = "bg-blue-100 text-blue-600";
     badgeText = "excellent";
-  } else if (score > 69) {
+  } else if (score > 70) {
     badgeColor = "bg-badge-green text-green-600";
     badgeText = "Good";
   } else if (score > 49) {
